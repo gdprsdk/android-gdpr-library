@@ -24,7 +24,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_2.png" width="276" height="490"/>
 </p>
 <p align="center">
-  This is the main GDPR SDK screen for gathering consent from user.  If the user wishes to have a more detailed/customized consent setup, press the Details button, leading us to the next screen.  In most cases, if the user chooses "I Consent" or "I Do Not Consent" then the consent gathering process is finished and would return to the original Demo Screen.  The consent string would be saved.
+  This is the main GDPR SDK screen for gathering consent from user.  The consent process is as simple as choosing "I Consent" or "I Do Not Consent".  However, if the user wishes to have a more detailed/customized consent setup, press the Details button, leading us to the next screen below. 
 </p>
 <br/>
 
@@ -33,7 +33,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_3.png" width="276" height="490"/>
 </p>
 <p align="center">
-  This is the customized/detailed GDPR SDK screen for gathering more granular consent from user.  Here the user may consent or (not consent) to itemized privacy points.  Checking or unchecking purposes will automatically select or unselect vendors associated to those purposes.  Again, this screen exists for those users who wish to have a more granular, customized privacy setup.  Simply consenting to "I Consent" or "I Do Not Consent" on the previous main consent screen will suffice.
+  This is the customized/detailed GDPR SDK screen for gathering consent on a more granular level.  Here the user may consent or (not consent) to itemized privacy categories and individual vendors.  There are approximately 5 privacy categories and currently over 300 vendors!  Checking or unchecking categories will automatically select or unselect vendors associated to those categories.  Again, this screen exists for those users who wish to have a more granular, customized privacy setup.  Simply consenting to "I Consent" or "I Do Not Consent" on the previous main consent screen will suffice.
 </p>
 <br/>
 
@@ -42,15 +42,19 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_4.png" width="276" height="490"/>
 </p>
 <p align="center">
-  After the user has gone thru the consent experience, which could be as simple as pressing "I Consent" or "I Do Not Consent" or "Save", the sdk brings you back to your original Demo app screen.  You can see the new consent string.  You can back back to the details screen to verify that the user consent settings have been persisted and saved.
+  After the user has gone thru the consent experience, which could be as simple as pressing "I Consent" or "I Do Not Consent" or "Save", the sdk brings you back to your original Demo app screen.  You can see the new consent string.  You can go back to the details screen to verify that the user consent settings have been persisted and saved.
 </p>
 <br/>
 
 
+Ideal use-case scenario in your app or game: 
+1) use our sdk method to determine if the user is in the EU.  GdprCmp.isSubjectToGDPR(..)
+2) If so, set the application as being subject to GDPR.       GdprCmp.setIsSubjectToGDPR(true)
+3) Show the CMP UI...  GdprCmp.startCmpActivityForResult(..)
+4) Receive onActivityResult callback and check resultCode against CmpActivityResult resultCodes.
+5) If the user made a choice, then the consent string will be saved and you are done.
 
-
-Usage for GdprCmp.java.  Check the Demo code to see how easy it is to implement in any android app.
-
+GdprCmp methods:
 
     /**
      * Starts the main CMP activity for gathering user consent.
