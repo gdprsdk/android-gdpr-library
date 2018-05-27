@@ -3,7 +3,8 @@ Android Demo App easily showing how to use a cool GDPR SDK
 
 
 Usage:
-/**
+
+   /**
      * Starts the main CMP activity for gathering user consent.
      *
      * @param activity - parent activity
