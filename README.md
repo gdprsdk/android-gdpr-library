@@ -1,3 +1,9 @@
+<!--
+  Title: Android GDPR
+  Description: A simple android demo how to use GDPR consent SDK.  Makes GDPR consent management and collection easy. CMP.
+  Consent Management Platform.
+  Author: gdprsdk
+  -->
 # android-gdpr-demo
 Android Demo App showing how easy to use a GDPR SDK to detect if in EU and collect consent from user.
 
