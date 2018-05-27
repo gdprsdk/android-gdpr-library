@@ -6,7 +6,13 @@ https://drive.google.com/open?id=1Vw8YMFnhAIWjw1klA4hxWHOR7UZGSpPR
 
 <p align="center">
   <img src="gdpr_demo_1.png" width="400" height="640"/>
+</p>
+<p align="center">
   <img src="gdpr_demo_2.png" width="400" height="640"/>
+</p>
+<p align="center">
   <img src="gdpr_demo_3.png" width="400" height="640"/>
+</p>
+<p align="center">
   <img src="gdpr_demo_4.png" width="400" height="640"/>
 </p>
