@@ -175,7 +175,7 @@ GdprCmp methods:
 
 
 
-   /**
+    /**
      * Sets the app as being subject to GDPR or not.
      *
      * @param context
