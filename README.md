@@ -52,7 +52,7 @@ Ideal use-case scenario in your app or game:
 2) If so, set the application as being subject to GDPR.       GdprCmp.setIsSubjectToGDPR(true)
 3) Show the CMP UI...  GdprCmp.startCmpActivityForResult(..)
 4) Receive onActivityResult callback and check resultCode against CmpActivityResult resultCodes.
-5) If the user made a choice, then the consent string will be saved and you are done.
+5) If the user made a choice, then the consent string has been saved and you are done.
 
 GdprCmp methods:
 
