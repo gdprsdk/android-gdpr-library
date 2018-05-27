@@ -208,7 +208,7 @@ GdprCmp methods:
     
     
     /**
-     * Indicates if consent string has been set.
+     * Indicates if consent string has been set, i.e. stored in shared preferences.
      *
      * @param context
      * @return
