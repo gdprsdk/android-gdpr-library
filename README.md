@@ -56,10 +56,11 @@ https://bit.ly/2KTYjQD
 Ideal use-case scenario in your app or game: 
 1) Use our sdk method to determine if the user is in the EU --> GdprCmp.isSubjectToGDPR(..)
    Of course, you may use your own method to determine EU.  The sdk method uses device locale.
-2) If EU, set the application as being subject to GDPR. --> GdprCmp.setIsSubjectToGDPR(true)
-3) Show the CMP UI -->  GdprCmp.startCmpActivityForResult(..)
-4) Receive onActivityResult callback and check result code against CmpActivityResult result codes.
+2) If EU, then set the application as being subject to GDPR. --> GdprCmp.setIsSubjectToGDPR(true)
+3) If user has not seen the consent UI yet, show it -->  GdprCmp.startCmpActivityForResult(..)
+4) Receive onActivityResult callback and check result code against CmpActivityResult codes.
 5) If the user made a choice, then the consent string has been saved and you are done.
+6) Now, call GdprCmp.getGDPRConsentString() and set that value into the various 3rd party SDK's that require it.
 6) Finally, provide an overflow menu option for the user, if they wish, to open the privacy settings again.
    This provides users a way to change their privacy settings at any time.
 
