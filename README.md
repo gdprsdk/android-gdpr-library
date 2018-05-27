@@ -1,5 +1,5 @@
 # android-gdpr-demo
-Android Demo App easily showing how to use a cool GDPR SDK
+Android Demo App showing how easy to use a GDPR SDK to detect if in EU and collect consent from user.
 
 
 Watch the video to see how the Demo works:
@@ -15,7 +15,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_1.png" width="276" height="490"/>  
 </p>
 <p align="center">
-  The Demo app has 1 simple screen.  This screen shows the current GDPR consent string and shows how to set this app as being GDPR applicable.  Clicking on the 'Privacy Settings' button will start the GDPR SDK Activity for gathering consent from user (below).
+  The Demo app has 1 simple screen.  This screen shows the current GDPR consent string and shows how to set this app as being GDPR applicable.  Clicking on the 'Privacy Settings' button will start the GDPR CMP Activity for gathering consent from user (below).
 </p>
 <br/>
 
@@ -24,7 +24,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_2.png" width="276" height="490"/>
 </p>
 <p align="center">
-  This is the main GDPR SDK screen for gathering consent from user.  The consent process is as simple as choosing "I Consent" or "I Do Not Consent".  However, if the user wishes to have a more detailed/customized consent setup, press the Details button, leading us to the next screen below. 
+  This is the main GDPR SDK screen for gathering consent from user.  The consent process is as simple as choosing "I Consent" or "I Do Not Consent".  However, if the user wishes to have a more detailed/customized consent setup, press the Details button, leading us to the next screen below.  There is a Trial notice, but everything will continue to work fine.
 </p>
 <br/>
 
@@ -33,7 +33,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_3.png" width="276" height="490"/>
 </p>
 <p align="center">
-  This is the customized/detailed GDPR SDK screen for gathering consent on a more granular level.  Here the user may consent or (not consent) to itemized privacy categories and individual vendors.  There are approximately 5 privacy categories and currently over 300 vendors!  Checking or unchecking categories will automatically select or unselect vendors associated to those categories.  Again, this screen exists for those users who wish to have a more granular, customized privacy setup.  Simply consenting to "I Consent" or "I Do Not Consent" on the previous main consent screen will suffice.
+  This is the customized/detailed GDPR SDK screen for gathering consent on a more granular level.  The user may consent or (not consent) to itemized privacy categories and individual vendors.  There are approximately 5 privacy categories and currently over 300 vendors!  Checking or unchecking categories will automatically select or unselect vendors associated to those categories.  Again, this screen exists for those users who wish to have a more granular, customized privacy setup.  Simply consenting to "I Consent" or "I Do Not Consent" on the previous main consent screen will suffice.  The user needs to press 'SAVE' button to save their choices and the consent string will be saved.
 </p>
 <br/>
 
@@ -48,11 +48,13 @@ https://bit.ly/2KTYjQD
 
 
 Ideal use-case scenario in your app or game: 
-1) use our sdk method to determine if the user is in the EU.  GdprCmp.isSubjectToGDPR(..)
+1) Use our sdk method to determine if the user is in the EU.  GdprCmp.isSubjectToGDPR(..)
 2) If so, set the application as being subject to GDPR.       GdprCmp.setIsSubjectToGDPR(true)
 3) Show the CMP UI...  GdprCmp.startCmpActivityForResult(..)
-4) Receive onActivityResult callback and check resultCode against CmpActivityResult resultCodes.
+4) Receive onActivityResult callback and check result code against CmpActivityResult result codes.
 5) If the user made a choice, then the consent string has been saved and you are done.
+6) Finally, provide an overflow menu option for the user, if they wish, to open the privacy settings again.
+   This provides users a way to change their privacy settings at any time.
 
 GdprCmp methods:
 
@@ -69,6 +71,8 @@ GdprCmp methods:
      */
     public static void startCmpActivityForResult(Activity activity, int requestCode, boolean allowBackButton, boolean defaultConsentAll);
 
+
+
     /**
      * Starts the CMP Details activity for gathering user consent.
      *
@@ -82,6 +86,8 @@ GdprCmp methods:
      */
     public static void startCmpDetailsActivityForResult(Activity activity, int requestCode, boolean allowBackButton, boolean defaultConsentAll);
 
+
+
     /**
      * Stores the consent string to default shared preferences following IAB specs.
      *
@@ -89,6 +95,9 @@ GdprCmp methods:
      * @param iabConsentString
      */
     public static void setGDPRConsentString(final Context context, final String iabConsentString);
+    
+    
+    
     /**
      * Sets the app as being subject to GDPR or not.
      *
@@ -96,6 +105,8 @@ GdprCmp methods:
      * @param isSubjectToGDPR - true sets this app as being subject to GDPR.  false, not subject.
      */
     public static void setIsSubjectToGDPR(final Context context, final boolean isSubjectToGDPR);
+
+
 
     /**
      * Indicates if the app is subject to GDPR.  If 'setIsSubjectToGDPR' has not been invoked yet,
@@ -106,6 +117,8 @@ GdprCmp methods:
      */
     public static boolean isSubjectToGDPR(Context context);
 
+
+
     /**
      * Returns the existing consent string stored in shared preferences.
      *
@@ -114,6 +127,9 @@ GdprCmp methods:
      */
     public static String getGDPRConsentString(Context context);
 
+
+
+
     /**
      * Indicates if consent string has been set.
      *
@@ -121,6 +137,8 @@ GdprCmp methods:
      * @return
      */
     public static boolean hasGDPRConsentString(Context context);
+
+
 
     /**
      * Removes GDPR settings from shared preferences of this app.  Useful for testing.
@@ -129,6 +147,9 @@ GdprCmp methods:
      * @param context
      */
     public static void clearGDPRSettings(Context context);
+    
+    
+    
     /**
      * Starts the CMP Details activity for gathering user consent.
      *
@@ -142,6 +163,8 @@ GdprCmp methods:
      */
     public static void startCmpDetailsActivityForResult(Activity activity, int requestCode, boolean allowBackButton, boolean defaultConsentAll);
 
+
+
     /**
      * Stores the consent string to default shared preferences following IAB specs.
      *
@@ -149,7 +172,10 @@ GdprCmp methods:
      * @param iabConsentString
      */
     public static void setGDPRConsentString(final Context context, final String iabConsentString);
-    /**
+
+
+
+   /**
      * Sets the app as being subject to GDPR or not.
      *
      * @param context
@@ -157,6 +183,8 @@ GdprCmp methods:
      */
     public static void setIsSubjectToGDPR(final Context context, final boolean isSubjectToGDPR);
 
+    
+    
     /**
      * Indicates if the app is subject to GDPR.  If 'setIsSubjectToGDPR' has not been invoked yet,
      * then checks device settings to see if it's in a EU country.  If in EU country, then returns true.  
@@ -166,6 +194,8 @@ GdprCmp methods:
      */
     public static boolean isSubjectToGDPR(Context context);
 
+    
+    
     /**
      * Returns the existing consent string stored in shared preferences.
      *
@@ -174,6 +204,8 @@ GdprCmp methods:
      */
     public static String getGDPRConsentString(Context context);
 
+    
+    
     /**
      * Indicates if consent string has been set.
      *
@@ -182,6 +214,8 @@ GdprCmp methods:
      */
     public static boolean hasGDPRConsentString(Context context);
 
+    
+    
     /**
      * Removes GDPR settings from shared preferences of this app.  Useful for testing.
      * Otherwise, not recommended.
