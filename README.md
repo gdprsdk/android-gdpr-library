@@ -5,7 +5,7 @@
   Author: gdprsdk
   -->
 # android-gdpr-demo
-Android Demo App showing how easy to use a GDPR SDK to detect if in EU and collect consent from user.
+Android GDPR consent collection UI.  Shows how shocklingly easy it is to detect if user is EU and subsequently present the CMP (Consent Management Platform).  Writes the consent string in IAB format to shared preferences as specified by the IAB group.
 
 
 Watch the video to see how the Demo works:
