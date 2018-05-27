@@ -15,7 +15,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_1.png" width="276" height="490"/>  
 </p>
 <p align="center">
-  The Demo app has 1 simple screen.  This screen shows the current GDPR consent string and shows how to set this app as being GDPR applicable.  Clicking on the 'Privacy Settings' button invokes the sdk by start the GDPR CMP Activity for gathering consent from user (below).
+  The Demo app has 1 simple screen.  This screen shows the current GDPR consent string and shows how to set this app as being subject to GDPR policy.  Clicking on the 'Privacy Settings' button invokes the sdk by starting the GDPR CMP Activity for gathering consent from user (below).
 </p>
 <br/>
 
@@ -33,7 +33,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_3.png" width="276" height="490"/>
 </p>
 <p align="center">
-  This is the customized/detailed GDPR SDK screen for gathering consent on a more granular level.  The user may consent or (not consent) to itemized privacy categories and individual vendors.  There are approximately 5 privacy categories and currently over 300 vendors!  Checking or unchecking categories will automatically select or unselect vendors associated to those categories.  Again, this screen exists for those users who wish to have a more granular, customized privacy setup.  Simply consenting to "I Consent" or "I Do Not Consent" on the previous main consent screen will suffice.  The user needs to press 'SAVE' button to save their choices and the consent string will be saved.
+  This is the customized/detailed GDPR SDK screen for gathering consent on a more granular level.  The user may consent or (not consent) to itemized privacy categories and individual vendors.  There are approximately 5 privacy categories and currently over 300 vendors!  Checking or unchecking categories will automatically select or unselect vendors associated to those categories.  Again, this screen exists for users who wish to have a more granular, customized privacy setup.  Simply consenting to "I Consent" or "I Do Not Consent" on the previous main consent screen will suffice.  The user needs to press 'SAVE' button to save their choices and the consent string will be saved.
 </p>
 <br/>
 
