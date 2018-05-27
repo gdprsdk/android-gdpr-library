@@ -15,7 +15,7 @@ https://bit.ly/2KTYjQD
   <img src="gdpr_demo_1.png" width="276" height="490"/>  
 </p>
 <p align="center">
-  The Demo app has 1 simple screen.  This screen shows the current GDPR consent string and shows how to set this app as being GDPR applicable.  Clicking on the 'Privacy Settings' button will start the GDPR CMP Activity for gathering consent from user (below).
+  The Demo app has 1 simple screen.  This screen shows the current GDPR consent string and shows how to set this app as being GDPR applicable.  Clicking on the 'Privacy Settings' button invokes the sdk by start the GDPR CMP Activity for gathering consent from user (below).
 </p>
 <br/>
 
