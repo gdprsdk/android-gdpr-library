@@ -17,7 +17,7 @@ https://drive.google.com/open?id=1Vw8YMFnhAIWjw1klA4hxWHOR7UZGSpPR
   <img src="gdpr_demo_2.png" width="276" height="490"/>
 </p>
 <p align="center">
-  This is the main GDPR SDK screen for gathering consent from user.  If the user wishes to have a more detailed/customized consent setup, press the Details button, leading us to the next screen.
+  This is the main GDPR SDK screen for gathering consent from user.  If the user wishes to have a more detailed/customized consent setup, press the Details button, leading us to the next screen.  In most cases, if the user chooses "I Consent" or "I Do Not Consent" then the consent gathering process is finished and would return to the original Demo Screen.  The consent string would be saved.
 </p>
 <br/>
 
