@@ -6,7 +6,7 @@
   -->
 # android-gdpr-demo
 Android GDPR consent collection UI.  Shows how shocklingly easy it is to detect if user is EU and subsequently present the CMP (Consent Management Platform).  Writes the consent string in IAB format to shared preferences as specified by the IAB group.
-See MainActivityJava OR MainActivityKotlin (show in both languages)
+See MainActivityJava or MainActivityKotlin (both do the same thing!)
 https://github.com/gdprsdk/android-gdpr-demo/tree/master/app/src/main/java/org/gdpr/demo
 
 
