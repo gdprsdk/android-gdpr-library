@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android დემო</string>
+	<string name="show_privacy_settings">ღია კონფიდენციალურობის პარამეტრები</string>
+	<string name="current_consent_string">მიმდინარე თანხმობა სიმებიანი</string>
+	<string name="is_subject_to_gdpr">ეს პროგრამა ახლა GDPR- ს ექვემდებარება</string>
+	<string name="is_not_subject_to_gdpr">ეს აპლიკაცია არ ექვემდებარება GDPR- ს</string>
+	<string name="hello_world">გამარჯობა მსოფლიო აპლიკაცია!</string>
+	<string name="toggle_on">შეიქმნა GDPR- ის შესაბამისად</string>
+	<string name="toggle_off">მითითებული არ არის GDPR</string>
+	<string name="copy_to_clipboard">ბუფერში გადაწერა</string>
+	<string name="copied_to_clipboard">თანხმობა სიმებიანი გადაწერა ბუფერში ...</string>
+	<string name="consent_string_not_set">არ არის მითითებული</string>
+	<string name="clear_all">Wipe კონფიდენციალურობის პარამეტრები</string>
+	<string name="clear_descr">Wiping კონფიდენციალურობის პარამეტრების ამოშლის GDPR გამოყენებადობა და თანხმობა სიმებიანი საწყისი ნაგულისხმები Shared პრეფერენციები</string>
+	<string name="settings_cleared">GDPR პარამეტრები წაშლილია ...</string>
+
+</resources>

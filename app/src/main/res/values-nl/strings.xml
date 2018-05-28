@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Open privacy-instellingen</string>
+	<string name="current_consent_string">Huidige toestemmingsreeks</string>
+	<string name="is_subject_to_gdpr">Deze app is nu onderworpen aan GDPR</string>
+	<string name="is_not_subject_to_gdpr">Deze app is niet onderworpen aan GDPR</string>
+	<string name="hello_world">Hello World-app!</string>
+	<string name="toggle_on">Stel onderwerp in op GDPR</string>
+	<string name="toggle_off">Niet ingesteld op GDPR instellen</string>
+	<string name="copy_to_clipboard">Kopieer naar klembord</string>
+	<string name="copied_to_clipboard">Consent-tekenreeks gekopieerd naar klembord ...</string>
+	<string name="consent_string_not_set">Niet ingesteld</string>
+	<string name="clear_all">Privacy-instellingen wissen</string>
+	<string name="clear_descr">Het wissen van privacy-instellingen zal GDPR-toepasbaarheid en toestemmingsstring verwijderen uit Standaard Gedeelde voorkeuren</string>
+	<string name="settings_cleared">GDPR-instellingen gewist ...</string>
+
+</resources>

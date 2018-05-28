@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">DSD Android Demo</string>
+	<string name="show_privacy_settings">Öffnen Sie die Datenschutzeinstellungen</string>
+	<string name="current_consent_string">Aktuelle Zustimmungszeichenfolge</string>
+	<string name="is_subject_to_gdpr">Diese App unterliegt nun der DSGVO</string>
+	<string name="is_not_subject_to_gdpr">Diese App unterliegt nicht der DSGVO</string>
+	<string name="hello_world">Hallo Welt App!</string>
+	<string name="toggle_on">Vorbehaltlich der DSGVO</string>
+	<string name="toggle_off">Nicht von der DSGVO abhängig</string>
+	<string name="copy_to_clipboard">In die Zwischenablage kopieren</string>
+	<string name="copied_to_clipboard">Zustimmung String in die Zwischenablage kopiert ...</string>
+	<string name="consent_string_not_set">Nicht eingestellt</string>
+	<string name="clear_all">Datenschutzeinstellungen löschen</string>
+	<string name="clear_descr">Wenn Sie die Datenschutzeinstellungen löschen, wird die Anwendbarkeit und die Zustimmungszeichenfolge der DSGVO aus den standardmäßigen gemeinsamen Einstellungen entfernt</string>
+	<string name="settings_cleared">GDPR-Einstellungen gelöscht ...</string>
+
+</resources>

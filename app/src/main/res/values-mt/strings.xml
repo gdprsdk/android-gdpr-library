@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Open Settings tal-Privatezza</string>
+	<string name="current_consent_string">String tal-Konsensus Kurrenti</string>
+	<string name="is_subject_to_gdpr">Din l-applikazzjoni issa hija soġġetta għal GDPR</string>
+	<string name="is_not_subject_to_gdpr">Din l-app ma hijiex soġġetta għal GDPR</string>
+	<string name="hello_world">App Hello World!</string>
+	<string name="toggle_on">Sett Suġġett għal GDPR</string>
+	<string name="toggle_off">Sett mhux suġġett għall-GDPR</string>
+	<string name="copy_to_clipboard">Kopja fuq il-portafoll</string>
+	<string name="copied_to_clipboard">String ta \'kunsens ikkupjat lill-clipboard ...</string>
+	<string name="consent_string_not_set">Mhux Set</string>
+	<string name="clear_all">Imsaħ Settings tal-Privatezza</string>
+	<string name="clear_descr">L-issettjar tal-privatezza jitneħħa ser ineħħi l-applikabilità u s-sekwenza tal-kunsens tal-GDPR mill-Preferenzi Kondiviżi Default</string>
+	<string name="settings_cleared">Il-settings tal-GDPR jintmesħu ...</string>
+
+</resources>

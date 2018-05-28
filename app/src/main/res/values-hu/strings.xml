@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Nyissa meg az adatvédelmi beállításokat</string>
+	<string name="current_consent_string">Aktuális engedéllyel</string>
+	<string name="is_subject_to_gdpr">Ez az alkalmazás jelenleg a GDPR alá tartozik</string>
+	<string name="is_not_subject_to_gdpr">Ez az alkalmazás nem tartozik a GDPR alá</string>
+	<string name="hello_world">Hello World App!</string>
+	<string name="toggle_on">Állítsa be a GDPR függvényt</string>
+	<string name="toggle_off">Set nem függ a GDPR-től</string>
+	<string name="copy_to_clipboard">Másolja a vágólapra</string>
+	<string name="copied_to_clipboard">Engedélyezési karakterlánc a vágólapra másolt ...</string>
+	<string name="consent_string_not_set">Nincs beállítva</string>
+	<string name="clear_all">Törölje az adatvédelmi beállításokat</string>
+	<string name="clear_descr">Az adatvédelmi beállítások törlése eltávolítja a GDPR alkalmazhatóságát és jóváhagyja a karakterláncot az Alapértelmezett megosztott beállításokból</string>
+	<string name="settings_cleared">GDPR beállítások törölve ...</string>
+
+</resources>

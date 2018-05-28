@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Ireki pribatutasun ezarpenak</string>
+	<string name="current_consent_string">Uneko baimenen katea</string>
+	<string name="is_subject_to_gdpr">Aplikazioa GDPR-ren menpe dago orain</string>
+	<string name="is_not_subject_to_gdpr">Aplikazio hau ez dago GDPR-ren menpe</string>
+	<string name="hello_world">Kaixo mundua!</string>
+	<string name="toggle_on">Gaia ezarri GDPR-ra</string>
+	<string name="toggle_off">Ezarri GDPR ez den gaia</string>
+	<string name="copy_to_clipboard">Kopiatu arbelean</string>
+	<string name="copied_to_clipboard">Onarpenen katea arbelean kopiatu da ...</string>
+	<string name="consent_string_not_set">Ez da ezarri</string>
+	<string name="clear_all">Ezabatu pribatutasun ezarpenak</string>
+	<string name="clear_descr">Pribatutasun-ezarpenen garbiketa GDPR aplikagarritasuna eta baimen katea Kendutako Hobespen Lehenetsietatik kenduko dira</string>
+	<string name="settings_cleared">GDPR ezarpenak ezabatua ...</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Демоверсия SDR SDR</string>
+	<string name="show_privacy_settings">Открыть настройки конфиденциальности</string>
+	<string name="current_consent_string">Текущая строка согласия</string>
+	<string name="is_subject_to_gdpr">Это приложение теперь подчиняется GDPR</string>
+	<string name="is_not_subject_to_gdpr">Это приложение не подлежит GDPR</string>
+	<string name="hello_world">Привет, мир!</string>
+	<string name="toggle_on">Установлено с учетом ВВП</string>
+	<string name="toggle_off">Установить без учета ВВП</string>
+	<string name="copy_to_clipboard">Скопировать в буфер обмена</string>
+	<string name="copied_to_clipboard">Согласие String скопировано в буфер обмена ...</string>
+	<string name="consent_string_not_set">Не задано</string>
+	<string name="clear_all">Очистка настроек конфиденциальности</string>
+	<string name="clear_descr">Очистка настроек конфиденциальности приведет к удалению применимости и привязке к ВВП по умолчанию из общих настроек по умолчанию</string>
+	<string name="settings_cleared">Настройки GDPR стираются ...</string>
+
+</resources>

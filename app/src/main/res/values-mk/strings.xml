@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Андроид Демо</string>
+	<string name="show_privacy_settings">Отворете ги поставките за приватност</string>
+	<string name="current_consent_string">Тековна низа на согласност</string>
+	<string name="is_subject_to_gdpr">Оваа апликација сега е предмет на GDPR</string>
+	<string name="is_not_subject_to_gdpr">Оваа апликација не е предмет на GDPR</string>
+	<string name="hello_world">Hello World App!</string>
+	<string name="toggle_on">Постави предмет на GDPR</string>
+	<string name="toggle_off">Поставете не е предмет на GDPR</string>
+	<string name="copy_to_clipboard">Копирај во клипборд</string>
+	<string name="copied_to_clipboard">Стринг на согласност за копирање на таблата со исечоци ...</string>
+	<string name="consent_string_not_set">Не е поставен</string>
+	<string name="clear_all">Избришете ги подесувањата за приватност</string>
+	<string name="clear_descr">Бришењето на подесувањата за приватност ќе ја отстрани применливоста на GDPR и ќе се согласи низа од Default Default Preferences</string>
+	<string name="settings_cleared">Подесувања на БДПП се бришат ...</string>
+
+</resources>

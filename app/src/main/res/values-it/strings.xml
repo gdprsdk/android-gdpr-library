@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Demo Android GDPR SDK</string>
+	<string name="show_privacy_settings">Apri le impostazioni sulla privacy</string>
+	<string name="current_consent_string">Stringa di consenso corrente</string>
+	<string name="is_subject_to_gdpr">Questa app è ora soggetta a GDPR</string>
+	<string name="is_not_subject_to_gdpr">Questa app non è soggetta a GDPR</string>
+	<string name="hello_world">Ciao World App!</string>
+	<string name="toggle_on">Imposta soggetto a GDPR</string>
+	<string name="toggle_off">Imposta non soggetta a GDPR</string>
+	<string name="copy_to_clipboard">Copia negli appunti</string>
+	<string name="copied_to_clipboard">Consenso stringa copiata negli appunti ...</string>
+	<string name="consent_string_not_set">Non impostato</string>
+	<string name="clear_all">Cancella le impostazioni sulla privacy</string>
+	<string name="clear_descr">La cancellazione delle impostazioni sulla privacy rimuoverà l\'applicabilità GDPR e la stringa di consenso dalle Preferenze condivise predefinite</string>
+	<string name="settings_cleared">Impostazioni GDPR cancellate ...</string>
+
+</resources>

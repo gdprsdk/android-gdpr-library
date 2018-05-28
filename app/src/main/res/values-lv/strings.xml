@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Atveriet konfidencialitātes iestatījumus</string>
+	<string name="current_consent_string">Pašreizējā piekrišanas virkne</string>
+	<string name="is_subject_to_gdpr">Šī lietotne tagad ir pakļauta GDPR</string>
+	<string name="is_not_subject_to_gdpr">Šī lietotne nav pakļauta GDPR</string>
+	<string name="hello_world">Hello World App!</string>
+	<string name="toggle_on">Noteikt GDPR</string>
+	<string name="toggle_off">Iestatīt GDPR neattiecas</string>
+	<string name="copy_to_clipboard">Kopēt starpliktuvē</string>
+	<string name="copied_to_clipboard">Piekrišanas virkne tiek kopēta starpliktuvē ...</string>
+	<string name="consent_string_not_set">Nav uzstādīts</string>
+	<string name="clear_all">Noslaukiet konfidencialitātes iestatījumus</string>
+	<string name="clear_descr">Noslēpumaina konfidencialitātes iestatījumi noņems GDPR piemērojamību un piekrišanas virkni no Noklusēto koplietojamo preferenču</string>
+	<string name="settings_cleared">GDPR iestatījumi izdzēsti ...</string>
+
+</resources>

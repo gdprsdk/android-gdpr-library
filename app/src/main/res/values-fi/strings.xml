@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Avaa tietosuoja-asetukset</string>
+	<string name="current_consent_string">Nykyinen suostumusjono</string>
+	<string name="is_subject_to_gdpr">Tämä sovellus on nyt BPR: n alainen</string>
+	<string name="is_not_subject_to_gdpr">Tämä sovellus ei ole sidoksissa GDPR: hen</string>
+	<string name="hello_world">Hello World App!</string>
+	<string name="toggle_on">Aseta riippuen GDPR: stä</string>
+	<string name="toggle_off">Set ei ole riippuvainen GDPR: stä</string>
+	<string name="copy_to_clipboard">Kopioi leikepöydälle</string>
+	<string name="copied_to_clipboard">Salli String kopioitu leikepöydälle ...</string>
+	<string name="consent_string_not_set">Ei valittu</string>
+	<string name="clear_all">Pyyhi yksityisyysasetukset</string>
+	<string name="clear_descr">Tietosuoja-asetusten pyyhkiminen poistaa BKT: n sovellettavuuden ja hyväksyy merkkijonoa oletusarvoisista jaetuista asetuksista</string>
+	<string name="settings_cleared">GDPR-asetukset pyyhitty ...</string>
+
+</resources>

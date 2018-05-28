@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Демонстрация за</string>
+	<string name="show_privacy_settings">Отворете настройките за поверителност</string>
+	<string name="current_consent_string">Текуща структура за съгласие</string>
+	<string name="is_subject_to_gdpr">Това приложение вече е предмет на GDPR</string>
+	<string name="is_not_subject_to_gdpr">Това приложение не подлежи на GDPR</string>
+	<string name="hello_world">Hello World App!</string>
+	<string name="toggle_on">Задайте обект на GDPR</string>
+	<string name="toggle_off">Задаване, което не е предмет на GDPR</string>
+	<string name="copy_to_clipboard">Копиране в клипборда</string>
+	<string name="copied_to_clipboard">Синхронизацията за съгласие бе копирана в буферната памет ...</string>
+	<string name="consent_string_not_set">Не е зададено</string>
+	<string name="clear_all">Изтрийте настройките за поверителност</string>
+	<string name="clear_descr">Изтриването на настройките за поверителност ще премахне приложимостта на GDPR и съгласието за низ от стандартните споделени предпочитания</string>
+	<string name="settings_cleared">Настройките на GDPR са изтрити ...</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Opnaðu persónuverndarstillingar</string>
+	<string name="current_consent_string">Núverandi samþykki strengur</string>
+	<string name="is_subject_to_gdpr">Þessi app er nú háð GDPR</string>
+	<string name="is_not_subject_to_gdpr">Þessi app er ekki háð GDPR</string>
+	<string name="hello_world">Halló World App!</string>
+	<string name="toggle_on">Setja fyrirvara fyrir GDPR</string>
+	<string name="toggle_off">Setjið ekki fyrirvara fyrir GDPR</string>
+	<string name="copy_to_clipboard">Afritaðu á klemmuspjald</string>
+	<string name="copied_to_clipboard">Samþykki strengur afritað á klemmuspjald ...</string>
+	<string name="consent_string_not_set">Ekki sett</string>
+	<string name="clear_all">Þurrkaðu persónuverndarstillingar</string>
+	<string name="clear_descr">Þurrka persónuverndarstillingar mun fjarlægja GDPR notagildi og samþykkja streng frá Sjálfgefið algengar stillingar</string>
+	<string name="settings_cleared">GDPR stillingar eytt ...</string>
+
+</resources>

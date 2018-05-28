@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR-SDK-Android Demo</string>
+	<string name="show_privacy_settings">Malfermaj Privateca Agordoj</string>
+	<string name="current_consent_string">Nuna Konsento String</string>
+	<string name="is_subject_to_gdpr">Ĉi tiu programo nun estas submetata al GDPR</string>
+	<string name="is_not_subject_to_gdpr">Ĉi tiu programo ne estas submetita al GDPR</string>
+	<string name="hello_world">Hello Mondo App!</string>
+	<string name="toggle_on">Agordi subjekton al GDPR</string>
+	<string name="toggle_off">Fiksita Ne Subjekti GDPR</string>
+	<string name="copy_to_clipboard">Kopii al tondujo</string>
+	<string name="copied_to_clipboard">Konsento Stringo kopiita al portujo ...</string>
+	<string name="consent_string_not_set">Ne agordita</string>
+	<string name="clear_all">Forviŝi Privateca Agordoj</string>
+	<string name="clear_descr">Limigado de privataj agordoj forigos la aplikon de GDPR kaj konsento de Defaŭlta Shared Preferences</string>
+	<string name="settings_cleared">GDPR-aranĝoj elŝaltitaj ...</string>
+
+</resources>

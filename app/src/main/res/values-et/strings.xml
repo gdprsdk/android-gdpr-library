@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Avage privaatsusseaded</string>
+	<string name="current_consent_string">Praegune nõusoleku string</string>
+	<string name="is_subject_to_gdpr">See rakendus kuulub nüüd GDPR-i</string>
+	<string name="is_not_subject_to_gdpr">Selle rakenduse suhtes ei kohaldata GDPR-i</string>
+	<string name="hello_world">Tere, maailma rakendus!</string>
+	<string name="toggle_on">Määra vastavalt GDPR-le</string>
+	<string name="toggle_off">Määra mitte GDPR-ile</string>
+	<string name="copy_to_clipboard">Kopeerida lõikelauale</string>
+	<string name="copied_to_clipboard">Nõusolek String kopeeritakse lõikepuhvrisse ...</string>
+	<string name="consent_string_not_set">Pole määratud</string>
+	<string name="clear_all">Puhasta privaatsuse seaded</string>
+	<string name="clear_descr">Privaatsusseadete pühkimine eemaldab GDPR-i rakenduse ja nõusoleku stringi vaikimisi jagatud eelistustest</string>
+	<string name="settings_cleared">GDPR sätted kustutati ...</string>
+
+</resources>

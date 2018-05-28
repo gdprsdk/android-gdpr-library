@@ -11,7 +11,7 @@
     <string name="copied_to_clipboard">Consent String copied to clipboard...</string>
     <string name="consent_string_not_set">Not Set</string>
     <string name="clear_all">Wipe Privacy Settings</string>
-    <string name="clear_descr">Wiping privacy settings will remove keys \"IABConsent_SubjectToGDPR\" and \"IABConsent_ConsentString\" from this apps Default Shared Preferences</string>
+    <string name="clear_descr">Wiping privacy settings will remove GDPR applicability and consent string from Default Shared Preferences</string>
     <string name="settings_cleared">GDPR Settings wiped...</string>
 
 </resources>

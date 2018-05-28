@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Deschide Setările de confidențialitate</string>
+	<string name="current_consent_string">Consultarea curentă</string>
+	<string name="is_subject_to_gdpr">Această aplicație este acum supusă GDPR</string>
+	<string name="is_not_subject_to_gdpr">Această aplicație nu este supusă GDPR</string>
+	<string name="hello_world">Hello World App!</string>
+	<string name="toggle_on">Setați subiectul pentru GDPR</string>
+	<string name="toggle_off">Nu setați pentru GDPR</string>
+	<string name="copy_to_clipboard">Copiați în clipboard</string>
+	<string name="copied_to_clipboard">Stringul de consimțământ copiat în clipboard ...</string>
+	<string name="consent_string_not_set">Nu este setat</string>
+	<string name="clear_all">Ștergeți setările de confidențialitate</string>
+	<string name="clear_descr">Ștergerea setărilor de confidențialitate va elimina aplicația GDPR și șirul de consimțământ din Preferințe partajate implicite</string>
+	<string name="settings_cleared">Setările GDPR șterse ...</string>
+
+</resources>

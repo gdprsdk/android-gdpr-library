@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">ГДПР СДК Андроид Демо</string>
+	<string name="show_privacy_settings">Отворите поставке приватности</string>
+	<string name="current_consent_string">Тренутни слој сагласности</string>
+	<string name="is_subject_to_gdpr">Ова апликација сада подлеже ГДПР-у</string>
+	<string name="is_not_subject_to_gdpr">Ова апликација није предмет ГДПР-а</string>
+	<string name="hello_world">Хелло Ворлд Апп!</string>
+	<string name="toggle_on">Поставите према ГДПР-у</string>
+	<string name="toggle_off">Сет није предмет ГДПР-а</string>
+	<string name="copy_to_clipboard">Копирај у клипборд</string>
+	<string name="copied_to_clipboard">Стринг сагласности копиран у клипборд ...</string>
+	<string name="consent_string_not_set">Није подешено</string>
+	<string name="clear_all">Обришите подешавања приватности</string>
+	<string name="clear_descr">Подешавање подешавања приватности ће уклонити примјенљивост ГДПР-а и сагласити стринг од Дефаулт Схаред Преференцес</string>
+	<string name="settings_cleared">Поставке ГДПР-а избрисане ...</string>
+
+</resources>

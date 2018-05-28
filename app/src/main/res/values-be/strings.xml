@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Адкрыйце налады прыватнасці</string>
+	<string name="current_consent_string">Бягучае згоду Радок</string>
+	<string name="is_subject_to_gdpr">Гэта дадатак зараз падлягае GDPR</string>
+	<string name="is_not_subject_to_gdpr">Гэта прыкладанне не падлягае GDPR</string>
+	<string name="hello_world">Прывітанне свет App!</string>
+	<string name="toggle_on">Ўсталяваць ўмова GDPR</string>
+	<string name="toggle_off">Ўсталяваць Ня Умова GDPR</string>
+	<string name="copy_to_clipboard">Капіяваць ў буфер абмену</string>
+	<string name="copied_to_clipboard">Згоду радок капіюецца ў буфер абмену ...</string>
+	<string name="consent_string_not_set">не паказаны</string>
+	<string name="clear_all">Працярыце Налады прыватнасці</string>
+	<string name="clear_descr">Выціраючы налады прыватнасці будуць выдалены GDPR прымянення і радкі згоду па змаўчанні Shared Preferences</string>
+	<string name="settings_cleared">Налады GDPR сцёр ...</string>
+
+</resources>

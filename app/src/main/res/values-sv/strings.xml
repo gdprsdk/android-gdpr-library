@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Öppna sekretessinställningar</string>
+	<string name="current_consent_string">Nuvarande Samtycke Sträng</string>
+	<string name="is_subject_to_gdpr">Den här appen är nu föremål för GDPR</string>
+	<string name="is_not_subject_to_gdpr">Den här appen är inte föremål för GDPR</string>
+	<string name="hello_world">Hej World App!</string>
+	<string name="toggle_on">Ange Subject to GDPR</string>
+	<string name="toggle_off">Ange inte ämnet för GDPR</string>
+	<string name="copy_to_clipboard">Kopiera till Urklipp</string>
+	<string name="copied_to_clipboard">Samtycke Sträng kopieras till Urklipp ...</string>
+	<string name="consent_string_not_set">Inte inställd</string>
+	<string name="clear_all">Torka sekretessinställningar</string>
+	<string name="clear_descr">Avlägsnande av integritetsinställningar tar bort GDPR-användbarhet och samtycke-sträng från standard delade inställningar</string>
+	<string name="settings_cleared">GDPR-inställningarna torkades ...</string>
+
+</resources>

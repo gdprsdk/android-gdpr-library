@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Åbn Privacy Settings</string>
+	<string name="current_consent_string">Nuværende Samtykkestreng</string>
+	<string name="is_subject_to_gdpr">Denne app er nu underlagt GDPR</string>
+	<string name="is_not_subject_to_gdpr">Denne app er ikke underlagt GDPR</string>
+	<string name="hello_world">Hej Verdens App!</string>
+	<string name="toggle_on">Indstil underlagt GDPR</string>
+	<string name="toggle_off">Indstil ikke emne for GDPR</string>
+	<string name="copy_to_clipboard">Kopier til udklipsholder</string>
+	<string name="copied_to_clipboard">Samtykkestreng kopieret til udklipsholder ...</string>
+	<string name="consent_string_not_set">Ikke indstillet</string>
+	<string name="clear_all">Tør Privacy Settings</string>
+	<string name="clear_descr">Hvis du sletter privatlivets indstillinger, fjernes GDPR-anvendelses- og samtykkestrengen fra standard delte præferencer</string>
+	<string name="settings_cleared">GDPR-indstillinger fjernet ...</string>
+
+</resources>

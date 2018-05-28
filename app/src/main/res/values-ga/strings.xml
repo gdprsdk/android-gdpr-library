@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Socruithe Príobháideachta Oscailte</string>
+	<string name="current_consent_string">String Comhaontú Reatha</string>
+	<string name="is_subject_to_gdpr">Tá an t-iarratas faoi réir GDPR anois</string>
+	<string name="is_not_subject_to_gdpr">Níl an app seo faoi réir GDPR</string>
+	<string name="hello_world">Dia duit App Domhanda!</string>
+	<string name="toggle_on">Socraigh Faoi réir GDPR</string>
+	<string name="toggle_off">Socraigh Gan A bheith GDPR</string>
+	<string name="copy_to_clipboard">Cóipeáil chuig an gearrthaisce</string>
+	<string name="copied_to_clipboard">Comhaontú String copied to clipboard ...</string>
+	<string name="consent_string_not_set">Gan Socraigh</string>
+	<string name="clear_all">Wipe Socruithe Príobháideachta</string>
+	<string name="clear_descr">Bainfidh suíomhanna príobháideachta sciatháin infheidhmeacht GDPR agus teaghrán toiliú as Réamhshocruithe Réamhshocraithe</string>
+	<string name="settings_cleared">Socraigh GDPR Socruithe ...</string>
+
+</resources>

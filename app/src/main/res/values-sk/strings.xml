@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">GDPR SDK Android Demo</string>
+	<string name="show_privacy_settings">Otvorte nastavenia ochrany osobných údajov</string>
+	<string name="current_consent_string">Aktuálny reťazec súhlasu</string>
+	<string name="is_subject_to_gdpr">Táto aplikácia je teraz predmetom GDPR</string>
+	<string name="is_not_subject_to_gdpr">Táto aplikácia nepodlieha GDPR</string>
+	<string name="hello_world">Hello World App!</string>
+	<string name="toggle_on">Nastaviť predmet podľa GDPR</string>
+	<string name="toggle_off">Nastavenie nepodlieha GDPR</string>
+	<string name="copy_to_clipboard">Skopírovať do schránky</string>
+	<string name="copied_to_clipboard">Súhlasný reťazec bol skopírovaný do schránky ...</string>
+	<string name="consent_string_not_set">Nie je nastavené</string>
+	<string name="clear_all">Otrite nastavenia ochrany osobných údajov</string>
+	<string name="clear_descr">Vymazanie nastavení ochrany osobných údajov odstráni použiteľnosť a súhlas GDPR z predvolených zdieľaných predvolieb</string>
+	<string name="settings_cleared">Nastavenia GDPR boli vymazané ...</string>
+
+</resources>
