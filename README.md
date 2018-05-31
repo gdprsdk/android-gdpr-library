@@ -1,8 +1,8 @@
 <!--
   Title: Android GDPR
   Description: A simple android demo how to use GDPR consent SDK.  Makes GDPR consent management and collection easy. CMP.
-  Consent Management Platform.
-  Author: gdprsdk
+  Consent Management Platform.  JAVA, KOTLIN.
+  Author: gdprsdk, kkawai
   -->
 # android-gdpr-demo
 Android GDPR consent collection UI.  Shows how shocklingly easy it is to detect if user is EU and subsequently present the CMP (Consent Management Platform).  Writes the consent string in IAB format to shared preferences as specified by the IAB group.
